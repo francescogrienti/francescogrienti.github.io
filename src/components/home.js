@@ -8,8 +8,8 @@ function Home () {
         <>
             < AboutMe />
             < Projects />
-            < Skills />
             < Experiences />
+			 < Skills />
         </>
     )
 }
