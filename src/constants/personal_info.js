@@ -1,3 +1,4 @@
+const name = "Francesco Grienti"
 const email = "francescogrienti99@gmail.com"
 const location = {
   it: "Gallarate, Italia",
@@ -15,8 +16,9 @@ const age = () => {
 }
 
 const aboutme = {
-  it: "",
-  en: ""}
+  it: "Ciao! Sono uno sviluppatore appassionato di tecnologia.",
+  en: "Hi! I am a developer passionate about technology."
+}
 
 
-export {email, location, age, aboutme}
+export {name, email, location, age, aboutme}
