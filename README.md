@@ -66,4 +66,4 @@ npm run deploy
 ```
 
 ---
-*Created by Francesco Grienti*
+*Created by Francesco Grienti, with the help of GEMINI CLI*
