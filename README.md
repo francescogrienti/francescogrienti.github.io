@@ -1,69 +1,48 @@
 # Francesco Grienti - Personal Portfolio
 
-A modern, responsive personal portfolio website built with **React** and styled with a professional **Forest & Emerald** theme.
+This repository contains the source code for my personal portfolio website. It serves as a showcase for my university projects, professional career experiences, and technical skills.
 
-## 🚀 Live Demo
-The website is intended to be hosted on GitHub Pages:
+## Purpose
+The goal of this project is to provide a central hub for my professional identity. While this repository is public, it is intended to be used for inspiration and reference only. I kindly ask that you do not clone or redistribute this repository as your own portfolio; however, you are welcome to explore the code to see how I've implemented certain features.
+
+## Live Demo
+The website is hosted on GitHub Pages:
 [francescogrienti.github.io](http://francescogrienti.github.io/)
 
-## 🛠️ Tech Stack
-- **Frontend:** React 19
-- **Styling:** Modern Vanilla CSS (with CSS Variables & Gradients)
-- **Deployment:** GitHub Pages (via `gh-pages`)
-- **Icons/Assets:** Integrated SVGs and optimized web fonts
+## Tech Stack
+* **Frontend:** React 19
+* **Styling:** Modern Vanilla CSS (utilizing CSS Variables, Flexbox, and Gradients)
+* **Deployment:** GitHub Pages (via gh-pages)
+* **Icons and Assets:** Custom SVGs and optimized web assets
+* **Navigation:** react-scroll for smooth single-page transitions
 
-## ✨ Features
-- **About Me:** Dynamic introduction with auto-calculating age.
-- **Projects:** Grid layout showcasing development work with tech tags and links.
-- **Skills:** Categorized technical expertise (Languages, Frontend, Backend, Tools).
-- **Experiences:** Chronological timeline for both Professional Career and Education.
-- **Responsive Design:** Optimized for mobile, tablet, and desktop views.
-- **Clean Architecture:** Strict separation of data (Constants) and layout (Components) for easy maintenance.
+## Features
+* **About Me:** Personal introduction and background information.
+* **Projects:** A gallery of university and personal projects with technical tags.
+* **Skills:** A categorized overview of my technical expertise.
+* **Experiences:** A chronological timeline of my professional journey and education.
+* **Responsive Design:** Fully optimized for mobile, tablet, and desktop viewing.
 
-## 📁 Project Structure
-```text
-src/
-├── components/   # React components (Header, AboutMe, Projects, etc.)
-├── constants/    # Data files (The only place you need to edit content!)
-├── App.js        # Main application entry point
-└── App.css       # Global styles and theme variables
-```
+## Project Structure
+* `src/components/`: Modular React components for each section.
+* `src/constants/`: Centralized data storage for easy content management.
+* `src/App.js` and `App.css`: Core application logic and global styling.
 
-## ⚙️ Getting Started
+## Local Development
+If you wish to explore the project locally:
 
-### Prerequisites
-- Node.js installed on your machine.
-
-### Installation
-1. Clone the repository:
+1. **Clone (for reference):**
    ```bash
    git clone https://github.com/francescogrienti/francescogrienti.github.io.git
    ```
-2. Install dependencies:
+2. **Install:**
    ```bash
    npm install
    ```
-
-### Running Locally
-To start the development server:
-```bash
-npm start
-```
-The app will be available at `http://localhost:3000`.
-
-## ✍️ Customizing Content
-You don't need to touch the React components to update your info! Simply edit the files in `src/constants/`:
-- `personal_info.js`: Your name, bio, and location.
-- `project_elements.js`: List of your projects.
-- `skills_elements.js`: Your technical skills.
-- `experiences_elements.js`: Your work and education history.
-- `social_urls.js`: Links to your GitHub, LinkedIn, etc.
-
-## 🚢 Deployment
-To deploy the latest version to your GitHub Pages:
-```bash
-npm run deploy
-```
+3. **Run:**
+   ```bash
+   npm start
+   ```
 
 ---
-*Created by Francesco Grienti, with the help of GEMINI CLI*
+Built by Francesco Grienti
