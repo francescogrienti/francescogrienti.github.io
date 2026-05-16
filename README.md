@@ -45,4 +45,4 @@ If you wish to explore the project locally:
    ```
 
 ---
-Built by Francesco Grienti
+Built by Francesco Grienti with the support of AI. 
