@@ -56,6 +56,15 @@ body {
   letter-spacing: 0.05em;
   color: var(--accent-primary);
   text-shadow: 0 0 8px rgba(0, 204, 51, 0.5);
+  display: inline-block;
+  border-right: 3px solid var(--accent-primary);
+  padding-right: 5px;
+  animation: blink-cursor 0.75s step-end infinite;
+}
+
+@keyframes blink-cursor {
+  from, to { border-color: transparent }
+  50% { border-color: var(--accent-primary); }
 }
 
 .hero .profile-img {
